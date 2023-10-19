@@ -1,0 +1,20 @@
+environments\selenium_env\Scripts\activate.bat   
+
+newtest\selenium_env\Scripts\activate.bat
+
+python c:\Users\Дмитро\selenium_course\1.py
+
+
+pytest c:\Users\Дмитро\selenium_course\les3_2_13.py
+
+pytest c:\Users\Дмитро\selenium_course\test_abs_project.py -v --tb=line
+
+-s показывает принт
+
+pip list
+pip cache purge
+pip install --upgrade urllib3
+pip install --upgrade -r requirements.txt  --обновление всего в окружении но хрен знает как работает
+
+pytest --disable-warnings c:\Users\Дмитро\selenium_course\test_1.py -s
+pytest --disable-warnings c:\Users\Дмитро\selenium_course\test_1.py -s --verbose
